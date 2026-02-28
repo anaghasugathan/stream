@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Date Idea Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>💖 Random Date Idea Generator 💖</h1>
+
+    <div class="filters">
+        <label>Budget:</label>
+        <select id="budget">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+
+        <label>Type:</label>
+        <select id="type">
+            <option value="indoor">Indoor</option>
+            <option value="outdoor">Outdoor</option>
+            <option value="adventure">Adventure</option>
+            <option value="romantic">Romantic</option>
+            <option value="fun">Fun</option>
+        </select>
+    </div>
+
+    <button onclick="generateIdea()">🎲 Generate Date Idea</button>
+
+    <div id="result" class="result">
+        Your surprise date idea will appear here!
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
